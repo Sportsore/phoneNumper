@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع مطور لخدمات الأرقام الوهميه المجانية</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-page" id="login-page">
+        <h1>تسجيل الدخول</h1>
+        <p>أدخل الكود للدخول </p>
+        <input type="password" id="login-code" placeholder="أدخل الكود هنا" required>
+        <button id="login-btn">دخول</button>
+        <footer>تم تطوير التطبيق بواسطة صوفي <a href="https://t.me/caser7" target="_blank">Telegram:@caser7</a></footer>
+    </div>
+
+    <div class="main-page" id="main-page" style="display: none;">
+        <h1>موقع مطور لخدمات الأرقام الوهميه المجانية</h1>
+        <div class="form-group">
+            <label for="phone-list">اختر رقم الهاتف:</label>
+            <select id="phone-list">
+                <option value="19163850525">+1 916-385-0525 (USA)</option>
+                <option value="447480728290">+44 7480-728290 (UK)</option>
+                <option value="13069884048">+1 306-988-4048 (Canada)</option>
+                <!-- أرقام عراقية مدفوعة -->
+                <option value="paid-1" class="paid">+964 773-541-5091 (مدفوع🔐)</option>
+                <option value="paid-2" class="paid">+964 770-198-4201 (مدفوع🔐)</option>
+                <option value="paid-3" class="paid">+964 771-519-5107 (مدفوع🔐)</option>
+                <option value="paid-4" class="paid">+964 770-557-8153 (مدفوع🔐)</option>
+            </select>
+        </div>
+        <button id="start-btn">Start</button>
+        <div id="messages"></div>
+        <footer>تم تطوير التطبيق بواسطة صوفي <a href="https://t.me/caser7" target="_blank">Telegram:@caser7</a></footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
